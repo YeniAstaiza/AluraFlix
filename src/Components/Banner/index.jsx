@@ -24,17 +24,7 @@ const ContenidoBanner = styled.div`
     align-items: center;
     margin: 12rem 0 0;
 `
-const BtnFront = styled.a`
-    background: #6BD1FF;
-    border-radius: 4px;
-    color: white;
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 1rem;
-    align-items: center;
-    text-align: center;
-    padding: 5px 10px;
-`
+
 const Subtitulo = styled.h2`
     color: white;
     font-size: 2.5rem;
@@ -64,9 +54,6 @@ const Banner = () => {
             <Principal  src={ImPrincipal} alt="Logo AluraFlix">
                 <ContenidoBanner>
                     <div >
-                        <BtnFront>
-                            Front End
-                        </BtnFront>
                         <Subtitulo>Challenge React</Subtitulo>
                         <Parrafo> Este challenge es una forma de aprendizaje. 
                             Es un mecanismo donde podrás comprometerte en 

@@ -1,7 +1,6 @@
 import React  from "react";
 import {styled} from "styled-components";
 import logo from "../../img/logo.png";
-import Button from "../Button";
 
 const StyledFooter = styled.nav`
   width: 100%;
