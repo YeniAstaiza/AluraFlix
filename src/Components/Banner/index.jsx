@@ -43,8 +43,8 @@ const ContenidoImg = styled.div`
     width: 100%;
 `
 const Player = styled.img`
-        width: 95%;
-        margin: 10rem 0 0;
+    width: 95%;
+    margin: 10rem 0 0;
 `
  
 
@@ -63,7 +63,9 @@ const Banner = () => {
                 </ContenidoBanner>
                 <ContenidoImg>
                     <div>
+                        <a href="https://www.youtube.com/watch?v=ov7vA5HFe6w" target="_blank">
                         <Player  src={ImPlayer} alt="ser desarrollador"/>
+                        </a>
                     </div>
                     </ContenidoImg>
                 

@@ -45,3 +45,21 @@ const Button = ({label, variant, tag = "a"}) => {
 }
 
 export default Button
+
+
+/*{
+            categorias.map(<></>(categoria) => <ListaCards
+              datos={categoria}
+              key={categoria.id}
+            />
+            
+            )
+          }
+
+          {
+            videos.map((video)  => <VideoCards
+              datos={video}
+              key={video.id}
+            />
+            )
+          }*/
